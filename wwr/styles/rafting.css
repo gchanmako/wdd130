@@ -107,10 +107,6 @@ article p {
     margin: auto 0;
     max-width: 200px;
     height: auto;
-}
-
-img {
-    overflow-clip-margin: content-box;
-    overflow: clip;
+    float: right;
 }
 
