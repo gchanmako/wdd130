@@ -110,3 +110,6 @@ article p {
     float: right;
 }
 
+footer nav a {
+    text-decoration: none;
+}
