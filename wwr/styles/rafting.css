@@ -116,7 +116,7 @@ header nav a {
 
 section {
     width: 100%;
-    max-width: auto;
+    max-width: 1200px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ section {
 }
 
 .imageadv {
-    max-width: auto;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
