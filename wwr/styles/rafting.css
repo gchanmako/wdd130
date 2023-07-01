@@ -24,6 +24,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+    padding: 10PX;
 }
 
 p {
@@ -157,6 +158,11 @@ figure {
     margin-block-end: 1em;
     margin-inline-start: 40px;
     margin-inline-end: 40px;
+}
+
+.map {
+    max-width: 800px;
+    padding: 25px;
 }
 
 footer {
