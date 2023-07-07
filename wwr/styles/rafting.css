@@ -186,7 +186,7 @@ input, option, textarea, {
 button {
     margin: 1rem;
     background-color: navy;
-    color: black;
+    color: whitesmoke;
     border: none;
     border-radius: .5rem;
     padding: .75rem;
@@ -194,7 +194,7 @@ button {
 }
 
 button:hover {
-    background-color: darkkhaki;
+    background-color: var(--nav-background-color);
 }
 
 
