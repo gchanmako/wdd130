@@ -197,6 +197,57 @@ button:hover {
     background-color: var(--nav-background-color);
 }
 
+.booknow {
+    width:400px;
+    margin: 0 auto;
+}
+
+.booknow button {
+    margin: 1rem;
+    background-color: var(--nav-background-color);
+    color: whitesmoke;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    width: 50%;
+}
+
+.booknow button:hover {
+    background-color: var(--nav-hover-background-color);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    text-align: center;
+  }
+  th,td {
+    padding: 8px 15px;
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+  }
+  th:first-child, td:first-child {
+    border-left: 2px solid #000;
+  }
+  th {
+    background-color: #ddd;
+    border-top: 2px solid #000;
+  }
+  th:first-child {
+    border-top-left-radius: 8px;
+  }
+  th:last-child {
+    border-top-right-radius: 8px;
+  }
+  tr:last-child td:first-child {
+    border-bottom-left-radius: 8px;
+  }
+  tr:last-child td:last-child {
+    border-bottom-right-radius: 8px;
+  }
 
 footer {
     background-color: steelblue;
